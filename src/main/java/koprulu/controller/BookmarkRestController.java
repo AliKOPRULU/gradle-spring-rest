@@ -18,9 +18,7 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/{userId}/bookmarks")
 class BookmarkRestController {
-
     private final BookmarkRepository bookmarkRepository;
-
     private final AccountRepository accountRepository;
 
     @Autowired
