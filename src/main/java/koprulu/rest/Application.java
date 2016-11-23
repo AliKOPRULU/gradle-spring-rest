@@ -1,4 +1,9 @@
-package koprulu.model;
+package koprulu.rest;
+
+import koprulu.model.Account;
+import koprulu.model.AccountRepository;
+import koprulu.model.Bookmark;
+import koprulu.model.BookmarkRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,6 +13,7 @@ import java.util.Arrays;
 /**
  * Created by Ali on 23.11.2016.
  */
+@SuppressWarnings("SpringJavaAutowiringInspection")
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
